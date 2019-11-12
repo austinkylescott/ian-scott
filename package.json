@@ -1,0 +1,15 @@
+{
+  "name": "ian-scott",
+  "version": "1.0.0",
+  "description": "blog site for Ian Scott",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Austin Scott",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
