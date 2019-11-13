@@ -1,0 +1,17 @@
+.btn {
+  cursor: pointer;
+  padding: 1.3rem;
+  border-radius: 3em;
+  border: 1px solid $color-text;
+  color: $color-bg-dark;
+  text-decoration: none;
+  font-family: $font-primary;
+  font-size: 1.1rem;
+}
+
+.btn:hover {
+  transition: all 1s ease;
+  background-color: $color-text;
+  color: $color-bg-dark;
+  font-weight: 600;
+}

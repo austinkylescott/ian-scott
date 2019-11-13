@@ -1,0 +1,11 @@
+.post {
+  padding: 1.1rem;
+}
+
+.post::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-bottom: 1px solid;
+}

@@ -1,0 +1,24 @@
+$color-bg: #2e5ed1;
+$color-bg-dark: #264dac;
+$color-text: #d4d0ab;
+
+body {
+  background: $color-bg;
+}
+.container {
+  color: $color-text;
+}
+
+.display,
+.content,
+.nav {
+  background: $color-bg-dark;
+  a {
+    color: $color-text;
+  }
+}
+
+.display,
+.logo {
+  background: $color-bg;
+}

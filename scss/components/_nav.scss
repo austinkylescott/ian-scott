@@ -1,0 +1,15 @@
+.nav {
+  grid-area: nav;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    width: 90%;
+    border-bottom: 1px solid;
+  }
+  li {
+    margin: 0.5rem;
+  }
+}

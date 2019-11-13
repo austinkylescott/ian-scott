@@ -1,5 +1,7 @@
-$primary-color: #444;
+@import "layout";
+@import "fonts";
+@import "color";
 
-body {
-  background: $primary-color;
-}
+@import "components/nav";
+@import "components/button";
+@import "components/post";
