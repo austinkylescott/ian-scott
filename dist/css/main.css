@@ -26,7 +26,7 @@ body {
 
 .headshot {
   border-radius: 50%;
-  border: 5px solid #eee; }
+  border: 5px solid; }
 
 .logo {
   grid-area: logo;
@@ -37,7 +37,8 @@ body {
   grid-area: content;
   padding: 1.5rem;
   max-height: 100vh;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  margin-top: 0; }
 
 .footer {
   grid-area: footer; }
@@ -58,7 +59,7 @@ h5 {
   font-size: 1.2rem; }
 
 body {
-  background: #2e5ed1; }
+  background: #1a293f; }
 
 .container {
   color: #d4d0ab; }
@@ -66,7 +67,7 @@ body {
 .display,
 .content,
 .nav {
-  background: #264dac; }
+  background: #04142c; }
   .display a,
   .content a,
   .nav a {
@@ -74,10 +75,11 @@ body {
 
 .display,
 .logo {
-  background: #2e5ed1; }
+  background: #1a293f; }
 
 .nav {
-  grid-area: nav; }
+  grid-area: nav;
+  margin-bottom: 0; }
   .nav ul {
     list-style: none;
     display: flex;
@@ -95,7 +97,7 @@ body {
   padding: 1.3rem;
   border-radius: 3em;
   border: 1px solid #d4d0ab;
-  color: #264dac;
+  color: #04142c;
   text-decoration: none;
   font-family: "Playfair Display", serif;
   font-size: 1.1rem; }
@@ -103,7 +105,7 @@ body {
 .btn:hover {
   transition: all 1s ease;
   background-color: #d4d0ab;
-  color: #264dac;
+  color: #04142c;
   font-weight: 600; }
 
 .post {
