@@ -11,8 +11,8 @@ body {
 
   grid-template:
     "display nav" 10vh
-    "display content" auto
-    "display content" auto
+    "display content" 45vh
+    "display content" 45vh
     / 2fr minmax(50%, 3fr);
 }
 
@@ -50,6 +50,8 @@ body {
 .content {
   grid-area: content;
   padding: 1.5rem;
+  max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .footer {

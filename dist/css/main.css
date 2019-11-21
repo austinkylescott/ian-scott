@@ -6,7 +6,7 @@ body {
 
 .container {
   display: grid;
-  grid-template: "display nav" 10vh "display content" auto "display content" auto/2fr minmax(50%, 3fr); }
+  grid-template: "display nav" 10vh "display content" 45vh "display content" 45vh/2fr minmax(50%, 3fr); }
 
 .display {
   grid-area: display;
@@ -35,7 +35,9 @@ body {
 
 .content {
   grid-area: content;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  max-height: 100vh;
+  overflow-y: scroll; }
 
 .footer {
   grid-area: footer; }
@@ -80,8 +82,11 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    width: 90%;
-    border-bottom: 1px solid; }
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    width: 100%; }
   .nav li {
     margin: 0.5rem; }
 
